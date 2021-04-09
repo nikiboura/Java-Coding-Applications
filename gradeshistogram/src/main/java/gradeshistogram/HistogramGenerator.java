@@ -7,9 +7,6 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 import java.io.File;
-//import java.io.BufferedReader;
-//import java.io.FileReader;
-//import java.io.IOException;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -103,7 +100,7 @@ public class HistogramGenerator {
 		//List that will store the data from the file
 		List<Integer> dataValues = new ArrayList<Integer>();
 		
-//		//if file wasn't given in the runtime
+       //if file wasn't given in the runtime
 //		String filename = "grades.txt";
 //		HistogramGenerator rf = new HistogramGenerator();
 //		dataValues = rf.readFile(filename);
