@@ -34,9 +34,11 @@ After you install the Maven on Windows follow the steps below to build and run t
 1.Clone this repository with the git clone command
 
 2.Run the following command in the repository root directory to build the modules
+
 	-mvn package
 
 3.The jar is located in the target directory and can be executed as following:
+
 	-java -jar gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar grades.txt
 
 (the grades.txt is the file that contains the student's grades and it is given from the command line)
