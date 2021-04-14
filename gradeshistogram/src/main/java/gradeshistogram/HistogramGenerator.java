@@ -7,10 +7,8 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 import java.io.File;
-import java.util.Scanner;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 
 /***
@@ -60,16 +58,19 @@ public class HistogramGenerator {
 		 * series in one dataset.
 		 */
 		XYSeries data = new XYSeries("random values");
-
-		/*
-		 * Populating the XYSeries data object from the input Integer list
-		 * values.
-		 */
-		for (int i = 0; i < dataValues.size(); i++) {
-			data.add(i, dataValues.get(i));
-			System.out.println(dataValues.get(i));
+		
+		//find the frequency of each grade
+		int [] frequencies = new int [11];  
+		for(int i = 0; i <= 10; i++){  
+			int freq = Collections.frequency(dataValues, i);
+			frequencies[i]= freq;
 		}
-
+		
+	                
+	    for (int j = 0; j < frequencies.length; j++) {
+	    	 data.add(j, frequencies[j]);    			
+	    }
+	     
 		// add the series to the dataset
 		dataset.addSeries(data);
 
@@ -78,7 +79,7 @@ public class HistogramGenerator {
 		boolean urls = false; // do not visualize urls
 
 		// Declare and initialize a createXYLineChart JFreeChart
-		JFreeChart chart = ChartFactory.createXYLineChart("Chart title", "x_axis title", "y_axis_title", dataset,
+		JFreeChart chart = ChartFactory.createXYLineChart("Chart title", "grades", "frequences", dataset,
 				PlotOrientation.VERTICAL, legend, tooltips, urls);
 
 		/*
@@ -99,15 +100,15 @@ public class HistogramGenerator {
 		
 		//List that will store the data from the file
 		List<Integer> dataValues = new ArrayList<Integer>();
-		
-       //if file wasn't given in the runtime
-//		String filename = "grades.txt";
+	
+        //Suppose file wasn't given in the runtime
+//	    String filename = "grades.txt";
 //		HistogramGenerator rf = new HistogramGenerator();
 //		dataValues = rf.readFile(filename);
 //		HistogramGenerator demo = new HistogramGenerator();
 //		demo.generateChart(dataValues);
 		
-		if (args.length > 0) {
+		 if (args.length > 0) {
 		   String filename = args[0];
 		   HistogramGenerator rf = new HistogramGenerator();
 		   dataValues = rf.readFile(filename);	
