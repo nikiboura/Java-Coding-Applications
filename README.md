@@ -1,5 +1,8 @@
 # Lab_exercises_2021
 
+[![Build Status](https://travis-ci.com/nikiboura/Lab_exercises_2021.svg?token=ki4LJ9spppXtZBbs1sCm&branch=development)](https://travis-ci.com/nikiboura/Lab_exercises_2021)
+
+
 The purpose of this repository is to include some Lab exercises in Applied Software Engineering in order to get familiar with Software Engineering Tools!
  
 
