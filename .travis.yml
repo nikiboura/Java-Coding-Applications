@@ -1,0 +1,18 @@
+language: java
+
+jdk:
+  - openjdk8
+
+branches:
+  only:
+  - main
+  - development
+
+before_script: 
+  - ls -la # this command just prints the contents of the current working directory.
+
+script: 
+  - mvn clean package 
+
+after_success:
+    - echo "process sucess"
