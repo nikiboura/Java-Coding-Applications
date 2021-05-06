@@ -30,7 +30,36 @@ public class MyMath {
 
 	        return result;
 	    }
+	 
+	 /**
+	  * Takes an integer as an input
+	  * and returns true if the integer is a prime number
+	  * or false if it's not.
+	  * @param n the input integer
+	  * @return a boolean value
+	  * @exception IllegalArgumentException when the given integer is not greater than 2.
+	  */
+	 public boolean isPrime(int n) {
+
+			int temp;
+			boolean isPrime=true;
+			
+			if (n<2) {
+				throw new IllegalArgumentException("n should be > 2");
+			}
+			
+			for(int i=2;i<=n/2;i++){
+		       temp=n%i;
+			   if(temp==0){
+			      isPrime=false;
+			      break;
+			   }
+			}
+			return isPrime;		
+	 }
 	}
+
+
 
 
 	
