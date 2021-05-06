@@ -9,7 +9,7 @@ It uses **Maven** to automate the build process of the two modules, **JUnit** fo
 * [Maven Lab assignment](#maven-lab-assignment)
 * [Unit Testing Lab assignment](#unit-testing-lab-assignment)
  
-
+<img align="left" width="40" height="40" src="media/maven.png">
 ## <a name="maven-lab-assignment"></a> Maven Lab assignment
 
 **Java application using Maven that generates a histogram.**
@@ -52,7 +52,7 @@ After you install the Maven on Windows follow the steps below to build and run t
 
 (the grades.txt is the file that contains the student's grades and it is given from the command line)
 
-
+<img align="left" width="40" height="40" src="media/junit.png">
 ## <a name="unit-testing-lab-assignment"></a>Unit Testing Lab assignment
 
 **Java project using JUnit for Unit Testing.**
