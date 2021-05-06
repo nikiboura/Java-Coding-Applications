@@ -6,11 +6,11 @@ The purpose of this repository is to include some Lab exercises in Java, for the
 It uses **Maven** to automate the build process of the two modules, **JUnit** for testing services, **TravisCI** for continuous integration services , **Jacoco** for Code Coverage services.
 
 ## <a name="Lab Exercises"></a>Lab Exercises
-* [Maven Lab assignment](#Maven Lab assignment)
-* [Unit Testing Lab assignment](#Unit Testing Lab assignment)
+* [Maven Lab assignment](#maven-lab-assignment)
+* [Unit Testing Lab assignment](#unit-testing-lab-assignment)
  
 
-## <a name="Maven Lab assignment"></a> Maven Lab assignment
+## <a name="maven-lab-assignment"></a> Maven Lab assignment
 
 **Java application using Maven that generates a histogram.**
 
@@ -53,7 +53,7 @@ After you install the Maven on Windows follow the steps below to build and run t
 (the grades.txt is the file that contains the student's grades and it is given from the command line)
 
 
-## <a name="Unit Testing Lab assignment"></a>Unit Testing Lab assignment
+## <a name="unit-testing-lab-assignment"></a>Unit Testing Lab assignment
 
 **Java project using JUnit for Unit Testing.**
 
