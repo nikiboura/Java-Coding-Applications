@@ -44,6 +44,8 @@ public class ArithmeticOperationsTest {
 	  @Test
 		 public void test_Multiply_Normal() {
 			 Assert.assertEquals(6, ap.multiply(3, 2));
+			 Assert.assertEquals(0, ap.multiply(3, 0));
+			 Assert.assertEquals(0, ap.multiply(0, 2));
 		 } 
  
 	 /*
@@ -57,12 +59,26 @@ public class ArithmeticOperationsTest {
 		public ExpectedException thrown = ExpectedException.none(); 
 	 
 		@Test 
-		public void test_Multiply_Should_Throw_Exception_If_Negative() {
+		public void test_Multiply_Should_Throw_Exception_If_xNegative() {
 			thrown.expect(IllegalArgumentException.class);
 			thrown.expectMessage("x & y should be >= 0");
 			ap.multiply(-2, 1);
-			ap.multiply(2, -1);	
 		}
+		
+		@Test 
+		public void test_Multiply_Should_Throw_Exception_If_yNegative() {
+			thrown.expect(IllegalArgumentException.class);
+			thrown.expectMessage("x & y should be >= 0");
+			ap.multiply(2, -1);
+		}
+		
+		@Test 
+		public void test_Multiply_Should_Throw_Exception_If_bothNegative() {
+			thrown.expect(IllegalArgumentException.class);
+			thrown.expectMessage("x & y should be >= 0");
+			ap.multiply(-2, -1);
+		}
+		
 		
 		
 		@Test 
