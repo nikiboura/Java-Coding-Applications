@@ -7,7 +7,8 @@ It uses **Maven** to automate the build process of the two modules, **JUnit** fo
 
 ## <a name="Lab Exercises"></a>Lab Exercises
 * [Maven Lab assignment](#maven-lab-assignment)
-* [Unit Testing Lab assignment] (https://github.com/nikiboura/Lab_exercises_2021/blob/development/unittesting/README.md)
+* [Unit Testing Lab assignment](https://github.com/nikiboura/Lab_exercises_2021/blob/development/unittesting/README.md)
+
  
 <img align="left" width="40" height="40" src="media/maven.png">
 
@@ -53,7 +54,7 @@ After you install the Maven on Windows follow the steps below to build and run t
 
 (the grades.txt is the file that contains the student's grades and it is given from the command line)
 
-<img align="left" width="40" height="40" src="media/junit.png">
+
 
 
 

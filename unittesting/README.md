@@ -1,3 +1,5 @@
+<img align="left" width="40" height="40" src="media/junit.png">
+
 ## <a name="unit-testing-lab-assignment"></a>Unit Testing Lab assignment
 
 **Java project using JUnit for Unit Testing.**
