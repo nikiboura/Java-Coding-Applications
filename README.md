@@ -8,6 +8,7 @@ It uses **Maven** to automate the build process of the two modules, **JUnit** fo
 ## <a name="Lab Exercises"></a>Lab Exercises
 * [Maven Lab assignment](#maven-lab-assignment)
 * [Unit Testing Lab assignment](https://github.com/nikiboura/Lab_exercises_2021/blob/development/unittesting/README.md)
+* [Design Patterns Lab assignment](https://github.com/nikiboura/Lab_exercises_2021/tree/development/sourcecodeanalyze)
 
  
 <img align="left" width="40" height="40" src="media/maven.png">
