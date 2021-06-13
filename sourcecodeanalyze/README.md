@@ -29,6 +29,14 @@ example:
 **Why select the Facade Pattern?**
 
 The Facade Pattern was used in order to provide the client a more simple access to the components that communicated.
+
+Class Diagram before the use of Facade:
+
+<img align="left" src="media/before.png">
+
+Class Diagram after the use of Facade:
+
+<img align="left" src="media/after.png">
  
 **How it affected the system?**
 
