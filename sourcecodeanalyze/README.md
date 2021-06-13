@@ -32,11 +32,17 @@ The Facade Pattern was used in order to provide the client a more simple access 
 
 Class Diagram before the use of Facade:
 
-<img align="left" src="media/before.png">
+<img align="left" width="80" height="80" src="media/before.png">
+
+
+
 
 Class Diagram after the use of Facade:
 
-<img align="left" src="media/after.png">
+<img align="left" width="80" height="80" src="media/after.png">
+
+
+
  
 **How it affected the system?**
 
