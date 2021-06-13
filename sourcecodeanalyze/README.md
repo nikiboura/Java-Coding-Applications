@@ -30,19 +30,6 @@ example:
 
 The Facade Pattern was used in order to provide the client a more simple access to the components that communicated.
 
-Class Diagram before the use of Facade:
-
-<img align="left" width="80" height="80" src="media/before.png">
-
-
-
-
-Class Diagram after the use of Facade:
-
-<img align="left" width="80" height="80" src="media/after.png">
-
-
-
  
 **How it affected the system?**
 
@@ -63,6 +50,19 @@ Class Diagram after the use of Facade:
 2. There is a build error in the facade class
 
 3. The test cases weren't modified
+
+
+
+**Class Diagram Before and After the use of Facade**
+
+
+
+<img align="left" src="media/before.png">
+
+
+
+<img align="left" src="media/after.png">
+
 
 
 
